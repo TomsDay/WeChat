@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:SlidingMenu="http://schemas.android.com/apk/res-auto"
+    tools:context="learn.yktx.com.mylearn.MainActivity">
+    <!-- <learn.yktx.com.mylearn.view.SlidingMenu
+         android:id="@+id/sm"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         SlidingMenu:rightPadding="200dp">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <!-- <include
+         layout="@layout/menu_layout"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:background="#ffffff">
+            <TextView
+                android:id="@+id/tv1"
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv2"
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/sb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="50"
+                style="@android:style/Widget.SeekBar"
+                />
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="viewstub"/>
+            <ViewStub
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ vs"
+                android:layout="@layout/viewstub_layout" />
+            <learn.yktx.com.mylearn.view.TopBar
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#fc2346"
+                SlidingMenu:lbn="hah ">
+
+            </learn.yktx.com.mylearn.view.TopBar>
+        </LinearLayout>
+    </LinearLayout>
+    <!--</learn.yktx.com.mylearn.view.SlidingMenu>-->
+
+
+</LinearLayout>

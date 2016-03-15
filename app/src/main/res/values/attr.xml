@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rightPadding" format="dimension">
+
+    </attr>
+    <declare-styleable name="SlidingMenu" >
+        <attr name="rightPadding" />
+
+    </declare-styleable>
+    <declare-styleable name="TopBar">
+        <attr name="lbn" format="string"></attr>
+        <attr name="lbns" format="dimension"></attr>
+        <attr name="lbnc" format="color"></attr>
+        <attr name="lbnb" format="reference|color"></attr>
+
+        <attr name="tn" format="string"></attr>
+        <attr name="tns" format="dimension"></attr>
+        <attr name="tnc" format="color"></attr>
+
+        <attr name="rbn" format="string"></attr>
+        <attr name="rbns" format="dimension"></attr>
+        <attr name="rbnc" format="color"></attr>
+        <attr name="rbnb" format="reference|color"></attr>
+
+        <attr name="tb" format="reference|color"></attr>
+    </declare-styleable>
+    <declare-styleable name="MyTab">
+        <attr name="icon" format="reference"/>
+        <attr name="color" format="color"/>
+        <attr name="text" format="string"/>
+        <attr name="text_sice" format="dimension"/>
+
+    </declare-styleable>
+</resources>
